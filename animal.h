@@ -46,7 +46,7 @@ public:
 		this->breed = breed;
 	}
 	void print() override {
-		cout << name << "    " << age << "    " << breed << endl;
+		cout << name << "\t" << age << "\t" << color << "\t" << breed << endl;
 	}
 	~Cat(){}
 };
@@ -62,7 +62,7 @@ public:
 		this->breed = breed;
 	}
 	void print() override {
-		cout << name << "    " << age << "    " << breed << endl;
+		cout << name << "\t" << age << "\t" << color << "\t" << breed << endl;
 	}
 	~Dog(){}
 };
@@ -79,7 +79,7 @@ public:
 		this->view = view;
 	}
 	void print() override {
-		cout << name << "    " << age << "    " << view << endl;
+		cout << name << "\t" << age << "\t" << color << "\t" << view << endl;
 	}
 	~Parrot() {}
 };
